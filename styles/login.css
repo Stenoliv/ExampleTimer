@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(34, 34, 34);
+  height: 100%;
+  margin: 0;
+}
+#loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+#inputFieldsContainer {
+  background-color: rgb(255, 255, 255);
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border-radius: 4px;
+}
+.inputField {
+  margin: 12px;
+  font-size: 28px;
+  padding: 6px;
+  border-radius: 6px;
+  background-color: rgb(220, 238, 255);
+}
+#submitBtn {
+  background-color: rgb(255, 242, 224);
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 14px;
+  font-size: 28px;
+  padding: 8px;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin: 12px;
+}
+.headerText {
+  color: rgb(0, 0, 0);
+}

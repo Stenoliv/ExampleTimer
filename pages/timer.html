@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <title>Study_Timer</title>
+  </head>
+  <body id="body">
+    <div class="timer">
+      <div id="settings">
+        <h2>Settings</h2>
+        <button type="button" class="settingsButton">Change type</button>
+        <button type="button" class="settingsButton">Delete session</button>
+      </div>
+      <div>
+        <div id="settingsContainer">
+          <img src="../misc/settings.png" id="settingsImage" />
+        </div>
+        <h1 class="headtext">Study timer</h1>
+        <div class="timeContainer">
+          <button type="button" class="adjustTimer">▼</button>
+          <p id="timer">00:00:00</p>
+          <button type="button" class="adjustTimer">▲</button>
+        </div>
+      </div>
+      <div class="buttonContainer">
+        <button type="button" onclick="startTimer()" class="buttons">
+          Start
+        </button>
+        <button type="button" onclick="pauseTimer()" class="buttons">
+          Pause
+        </button>
+        <button type="button" onclick="stopTimer()" class="buttons">
+          Stop
+        </button>
+      </div>
+      <button type="button" class="memButton">Continue previous session</button>
+    </div>
+    <a href="./profile.html">
+      <img src="../misc/user.png" id="profile" />
+    </a>
+    <script src="../scripts/script.js"></script>
+  </body>
+</html>
